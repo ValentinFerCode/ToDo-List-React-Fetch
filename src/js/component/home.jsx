@@ -52,7 +52,7 @@ const Home = () => {
             <div className="m-auto tamañoDiv padding-superior">
                 <div className="p-4 color-de-fondo">
                     <h3 className="pb-3 text-dark">
-                        Ingrese su tarea a realizar</h3>
+                        Tarea a realizar</h3>
                     <div className="input-group mb-3">
                         <button onClick={guardarTarea}
                             className="btn btn-success"
@@ -69,7 +69,7 @@ const Home = () => {
                     <div id="contenedorData" className="text-light">
                         {
                         data.map((item, index) => (
-                            <div className="row d-flex m-2"  style={{borderRadius:"20px",backgroundColor: "rgb(110, 19, 214)"}}>
+                            <div className="row d-flex m-2"  style={{borderRadius:"20px",backgroundColor: "rgb(182, 0, 0)"}}>
                                 <div className="col-6">
                                     <h5 className="m-2">{item}</h5>
                                 </div>
